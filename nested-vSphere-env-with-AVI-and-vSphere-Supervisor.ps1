@@ -150,18 +150,18 @@ $VAppName = "Nested-vSphere-AVI-Lab-$random_string"
 
 $preCheck = 1
 $confirmDeployment = 1
-$deployAVI = 0
-$deployNestedESXiVMs = 0
-$deployVCSA = 0
-$moveVMsIntovApp = 0 # need DRS enabled
-$setupNewVC = 0
-$addESXiHostsToVC = 0
-$configureVSANDiskGroup = 0
-$configureVDS = 0
-$clearVSANHealthCheckAlarm = 0
-$setupStoragePolicy = 0
-$setupContentLibrary = 0
-$setupAVI = 0
+$deployAVI = 1
+$deployNestedESXiVMs = 1
+$deployVCSA = 1
+$moveVMsIntovApp = 1 # need DRS enabled
+$setupNewVC = 1
+$addESXiHostsToVC = 1
+$configureVSANDiskGroup = 1
+$configureVDS = 1
+$clearVSANHealthCheckAlarm = 1
+$setupStoragePolicy = 1
+$setupContentLibrary = 1
+$setupAVI = 1
 $enableVsphereSupervisor = 1
 
 
